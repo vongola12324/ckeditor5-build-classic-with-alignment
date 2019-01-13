@@ -1,5 +1,5 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic-with-alignment",
+  "name": "ckeditor5-build-classic-with-alignment",
   "version": "11.2.0",
   "description": "The classic editor build of CKEditor 5 with alignment.",
   "keywords": [
