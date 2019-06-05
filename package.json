@@ -1,6 +1,6 @@
 {
   "name": "@vongola12324/ckeditor5-build-classic-with-alignment",
-  "version": "12.1.0",
+  "version": "12.1.1",
   "description": "The classic editor build of CKEditor 5 with alignment.",
   "keywords": [
     "ckeditor5-build",
@@ -73,7 +73,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "lint": "eslint --quiet '**/*.js'",
-    "preversion": "npm run build; if [ -n \"$(git status src/ckeditor.js build/ --porcelain)\" ]; then git add -u src/ckeditor.js build/ && git commit -m 'Internal: Build.'; fi"
+    "preversion": "npm run build ; if [ -n \"$(git status src/ckeditor.js build/ --porcelain)\" ] ; then git add -u src/ckeditor.js build/ && git commit -m 'Internal: Build.' ; fi"
   },
   "lint-staged": {
     "**/*.js": [
